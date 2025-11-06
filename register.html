@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Register - LightShop</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <main class="centered">
+    <div class="card form-card">
+      <h2>Create account</h2>
+      <form method="POST" action="register.php" novalidate>
+        <input name="name" type="text" placeholder="Full name" required>
+        <input name="username" type="text" placeholder="Username" required>
+        <input name="email" type="email" placeholder="Email" required>
+        <input name="password" type="password" placeholder="Password" required>
+        <button type="submit" class="btn">Register</button>
+      </form>
+      <p class="muted">Already have an account? <a href="login.html">Login</a></p>
+    </div>
+  </main>
+</body>
+</html>
